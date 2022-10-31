@@ -13,13 +13,12 @@
       font-size: 14px;
     }
   }
-  .banner{
-    font-size: 14px !important;
+  .jumbotron{
     h1{
       font-family:SolidenTrialBold;
       font-size: 70px;
     }
-    min-height: 88vh;
+    min-height: 90vh;
     background: #7dce13 !important;
     .btn{
       height: 45px;
@@ -36,4 +35,75 @@
       }
     }
   }
+  .jumbotron-1{
+    min-height: 100vh;
+    h1{
+      font-family:SolidenTrialBold;
+      font-size: 40px;
+    }
+    h2{
+      font-family:SolidenTrialBold;
+    }
+  }
+  .jumbotron-2{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: #fff !important;
+    .icon-card{
+      font-size: 50px !important;
+      color: #7dce13;
+    }
+    h1{
+      font-family:SolidenTrialBold;
+      font-size: 40px;
+    }
+  }
+  .jumbotron-3{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background: #7dce13 !important;
+    h1{
+      font-family:SolidenTrialBold;
+      font-size: 40px;
+    }
+  }
+  footer{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color: #fff;
+    background: #111 !important;
+    font-size: 14px;
+  }
+  @media (max-width: 768px) { 
+    .jumbotron{
+      text-align: center;
+      h1{
+        font-family:SolidenTrialBold;
+        font-size: 40px;
+      }
+    }
+    .div-none-max-768{
+      display: none !important;
+    }
+    .jumbotron-1{
+      h1{
+        font-family:SolidenTrialBold;
+        font-size: 30px;
+      }
+      .container{
+        .row{
+          .col-lg-6{
+            padding: 15px !important;
+          }
+        }
+      }
+    }
+  }
+  @media (min-width: 768px) { 
+    .div-none-min-768{
+      display: none !important;
+    }
+  }
+
 }
+
