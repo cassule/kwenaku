@@ -1,0 +1,52 @@
+.menu{
+  width: 250px;
+  height: 100vh;
+  background: #7dce13;
+  h1{
+    font-family: SolidenTrialBold;
+    font-size: 30px;
+  }
+  .h-60vh{
+    min-height: 60vh !important;
+  }
+  .link-menu{
+    text-align: left !important;
+    height: 40px;
+    padding-top: 10px;
+    font-size: 15px !important;
+  }
+  .link-menu.active{
+    background: #fff;
+    color: #111;
+  }
+  .link-menu:hover{
+    background: #fff;
+    color: #111;
+  }
+}
+.dropdown-item:hover{
+  background: #7dce13 !important;
+  color: #111 !important;
+}
+.icon-menu{
+  font-size: 18px;
+  margin-top: -3px;
+}
+.icon-card{
+  font-size: 20px;
+  margin-top: -1px;
+}
+.avatar-mini {
+  cursor: pointer;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 100px;
+
+  img {
+    width: 2rem;
+    height: 2rem;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 100px;
+  }
+} 

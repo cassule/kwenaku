@@ -1,0 +1,45 @@
+@import "~bootstrap/scss/bootstrap";
+@import "./tablet.scss";
+@import "./other.scss";
+@import "./menu.scss";
+@import "./dashboard.scss";
+@import "./home.scss";
+//
+@font-face {
+  font-family: CircularStdBook;
+  src: url(../assets/fonts/CircularStdBook.ttf);
+}
+@font-face {
+  font-family:SolidenTrialBold;
+  src: url(../assets/fonts/SolidenTrialBold.otf);
+}
+
+body{
+  font-family: CircularStdBook !important;
+  background:#fff !important;
+}
+::-webkit-scrollbar {width: 8px;}
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;background: #cecece;
+}::-webkit-scrollbar-thumb:hover {
+  transition: 0.3s;
+  background: #cecece;
+  cursor: pointer;
+}
+.h-100{min-height: 100vh;}
+.w-100{width: 100%;}
+.w-300px{width: 300px;}
+.font-size-14{ font-size: 14px !important; }
+.Loading-page{
+  background: white;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  position: fixed;
+}
+
+
+
+
+
+

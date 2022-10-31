@@ -1,0 +1,19 @@
+.dashboard{
+  font-size: 15px !important;
+  background:#f9fcfe !important;
+  width: 100% !important;
+  min-height: 100vh;
+  section{
+    width: 100%;
+  }
+}.section-body{
+  max-height: 100vh;
+  overflow: auto;
+}.navbar{
+  .btn-avatart-menu{
+    background: none !important;
+    color: #111 !important;
+    border: none !important;
+    font-size: 15px;
+  }
+}

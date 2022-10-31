@@ -1,0 +1,39 @@
+.home{
+  .navbar{
+    background: #7dce13 !important;
+    .navbar-brand{
+      font-family:SolidenTrialBold;
+      color: #111 !important;
+      font-size: 30px;
+    }
+    .btn{
+      height: 45px;
+      padding-left: 20px;
+      padding-right: 20px;
+      font-size: 14px;
+    }
+  }
+  .banner{
+    font-size: 14px !important;
+    h1{
+      font-family:SolidenTrialBold;
+      font-size: 70px;
+    }
+    min-height: 88vh;
+    background: #7dce13 !important;
+    .btn{
+      height: 45px;
+      padding-left: 20px;
+      padding-right: 20px;
+      font-size: 14px;
+      .FaGooglePlay{
+        font-size: 23px;
+        margin-top: -2px;
+      }
+      .FaApple{
+        font-size: 25px;
+        margin-top: -5px;
+      }
+    }
+  }
+}
